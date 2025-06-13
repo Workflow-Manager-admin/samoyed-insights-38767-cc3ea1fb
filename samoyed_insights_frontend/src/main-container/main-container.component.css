@@ -1,0 +1,101 @@
+:root {
+  --si-primary: #FFFFFF;
+  --si-secondary: #B3D9F7;
+  --si-accent: #F7C873;
+  --si-header-shadow: 0 4px 16px rgba(180,210,247,0.12);
+  --si-section-bg: #F7FAFE;
+  --si-title-color: #243748;
+  --si-text: #34546c;
+  --si-fun-border: #F7C873;
+}
+
+.main-container {
+  padding-top: 32px;
+  background: var(--si-primary);
+  min-height: 100vh;
+  color: var(--si-text);
+  font-family: 'Segoe UI', 'Roboto', 'Helvetica', Arial, sans-serif;
+}
+
+.si-header {
+  text-align: center;
+  padding: 48px 16px 32px 16px;
+  background: linear-gradient(180deg, var(--si-secondary) 60%, var(--si-primary) 100%);
+  box-shadow: var(--si-header-shadow);
+  border-radius: 0 0 40px 40px;
+  position: relative;
+}
+
+.hero-img {
+  height: 160px;
+  margin: 0 auto 16px auto;
+  width: 220px;
+  background: var(--si-section-bg);
+  border-radius: 50%;
+  background-image: url('https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=320&q=80');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 2px 14px 0px rgba(180,210,247, 0.16);
+}
+
+.si-title {
+  font-size: 2.9rem;
+  font-weight: 700;
+  color: var(--si-title-color);
+  margin: 0;
+  margin-top: 16px;
+}
+
+.si-subtitle {
+  color: var(--si-accent);
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 10px 0 0 0;
+}
+
+.si-section {
+  margin: 40px auto;
+  max-width: 760px;
+  background: var(--si-section-bg);
+  border-radius: 18px;
+  box-shadow: 0 4px 28px rgba(180,210,247, 0.13);
+  padding: 28px 24px;
+  position: relative;
+}
+
+.si-section h2 {
+  color: var(--si-title-color);
+  font-size: 1.55rem;
+  margin-top: 0;
+  margin-bottom: 16px;
+  border-bottom: 2px solid var(--si-secondary);
+  display: inline-block;
+  padding-right: 24px;
+}
+
+.section-content p, .section-content ul {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.photo-gallery .gallery {
+  display: flex;
+  gap: 18px;
+  min-height: 120px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery-placeholder {
+  color: var(--si-secondary);
+  background: #EFF7FD;
+  padding: 16px 32px;
+  border-radius: 12px;
+  border: 1px dashed var(--si-secondary);
+}
+
+.fun-facts {
+  border-left: 5px solid var(--si-fun-border);
+  padding-left: 16px;
+}

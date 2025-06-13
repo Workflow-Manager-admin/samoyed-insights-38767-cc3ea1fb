@@ -1,0 +1,4 @@
+{
+    "command": "PORT=<port> BROWSER=none npm start",
+    "working_directory": "/home/kavia/workspace/code-generation/samoyed-insights-38767-cc3ea1fb/samoyed_insights_frontend"
+}
